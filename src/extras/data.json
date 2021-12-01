@@ -1,0 +1,268 @@
+{
+    "photos": [
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955828/APP-IPH12MIN128BL-NG_jhyj8w.png",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/Apple-iPhone-12-negro_t89mvn.png",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/3_jg4nkg.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/4_wuowvy.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/1_ic2sbi.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/2_1_tghz2z.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638214783/iPhone_13_YA_DISPONIBLE_tjfxmn.png",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638214388/Dise%C3%B1o_sin_t%C3%ADtulo_3_n5ckgf.png"
+    ],
+    "categories": [
+        {
+            "name": "Móvil",
+            "level": "1"
+        },
+        {
+            "name": "Phones",
+            "level": "2"
+        },
+        {
+            "name": "Tablets",
+            "level": "2"
+        },
+        {
+            "name": "Smartwatches",
+            "level": "2"
+        },
+        {
+            "name": "Hombre",
+            "level": "1"
+        },
+        {
+            "name": "Mujer",
+            "level": "1"
+        },
+        {
+            "name": "Zapatillas",
+            "level": "2"
+        },
+        {
+            "name": "Ropa",
+            "level": "2"
+        },
+        {
+            "name": "Polos"
+        },
+        {
+            "name": "Casacas y Poleras"
+        },
+        {
+            "name": "Pantalones y Joggers"
+        },
+        {
+            "name": "Shorts"
+        },
+        {
+            "name": "Faldas"
+        },
+        {
+            "name": "Accesorios",
+            "level": "2"
+        },
+        {
+            "name": "Gorras"
+        },
+        {
+            "name": "Medias"
+        },
+        {
+            "name": "Lentes"
+        },
+        {
+            "name": "Mochilas"
+        },
+        {
+            "name": "Carteras"
+        }
+    ],
+    "category_children": [
+        {
+            "categoryId": 1,
+            "CategoryChildId": 2
+        },
+        {
+            "categoryId": 1,
+            "CategoryChildId": 3
+        },
+        {
+            "categoryId": 1,
+            "CategoryChildId": 4
+        },
+        {
+            "categoryId": 5,
+            "CategoryChildId": 7
+        },
+        {
+            "categoryId": 5,
+            "CategoryChildId": 8
+        },  
+        {
+            "categoryId": 5,
+            "CategoryChildId": 14
+        },
+        {
+            "categoryId": 6,
+            "CategoryChildId": 7
+        },
+        {
+            "categoryId": 6,
+            "CategoryChildId": 8
+        },
+        {
+            "categoryId": 6,
+            "CategoryChildId": 14
+        }
+    ],
+    "category_children_children": [
+        {
+            "category_children": 5,
+            "category_children_childrenId": 9
+        },
+        {
+            "category_children": 5,
+            "category_children_childrenId": 10
+        },
+        {
+            "category_children": 5,
+            "category_children_childrenId": 11
+        },
+        {
+            "category_children": 5,
+            "category_children_childrenId": 12
+        },
+        {
+            "category_children": 6,
+            "category_children_childrenId": 15
+        },
+        {
+            "category_children": 6,
+            "category_children_childrenId": 16
+        },
+        {
+            "category_children": 6,
+            "category_children_childrenId": 17
+        },
+        {
+            "category_children": 6,
+            "category_children_childrenId": 18
+        },
+        {
+            "category_children": 8,
+            "category_children_childrenId": 9
+        },
+        {
+            "category_children": 8,
+            "category_children_childrenId": 10
+        },
+        {
+            "category_children": 8,
+            "category_children_childrenId": 11
+        },
+        {
+            "category_children": 8,
+            "category_children_childrenId": 12
+        },
+        {
+            "category_children": 8,
+            "category_children_childrenId": 13
+        },
+        {
+            "category_children": 9,
+            "category_children_childrenId": 15
+        },
+        {
+            "category_children": 9,
+            "category_children_childrenId": 16
+        },
+        {
+            "category_children": 9,
+            "category_children_childrenId": 17
+        },
+        {
+            "category_children": 9,
+            "category_children_childrenId": 18
+        },
+        {
+            "category_children": 9,
+            "category_children_childrenId": 19
+        }
+    ],
+    "products": [
+        {
+            "name": "iPhone 13 Pro Max 256GB"
+        },
+        {
+            "name": "iPhone 12 Pro Max 256GB"
+        },
+        {
+            "name": "FRAGMENT DESIGN X TRAVIS SCOTT X AIR JORDAN 1 RETRO LOW"
+        }
+    ],
+    "category_product": [
+        {
+            "categoryId": 2,
+            "productId": 1
+        },
+        {
+            "categoryId": 2,
+            "productId": 2
+        },
+        {
+            "categoryId": 7,
+            "productId": 3
+        }
+    ],
+    "product_photo": [
+        {
+            "productId": 1,
+            "photoId": 1
+        },
+        {
+            "productId": 1,
+            "photoId": 2
+        },
+        {
+            "productId": 2,
+            "photoId": 1
+        },
+        {
+            "productId": 2,
+            "photoId": 2
+        },
+        {
+            "productId": 3,
+            "photoId": 3
+        },
+        {
+            "productId": 3,
+            "photoId": 4
+        },
+        {
+            "productId": 3,
+            "photoId": 5
+        },
+        {
+            "productId": 3,
+            "photoId": 6
+        }
+    ],
+    "slides": [
+        {
+            "name": "Nuevos iPhone 13",
+            "position": 1,
+            "photoId": 7
+        },
+        {
+            "name": "Zapatillas en descuento",
+            "position": 2,
+            "photoId": 8
+        }
+    ],
+    "company": {
+        "business_name": "Future Vision S.A.C",
+        "ruc": "20523648331",
+        "brand": "Future Vision"
+    }
+}
