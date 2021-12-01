@@ -33,7 +33,7 @@ fs.readdirSync(path.join(__dirname, '/models'))
 modelDefiners.forEach((model) => model(sequelize));
 
 // Destructuring of sequelize.models
-const { category, client, country, photo, product, review, slide, state, category_child } = sequelize.models;
+const { category, client, country, photo, product, review, slide, state, category_child, company } = sequelize.models;
 
 // Definition of model relationships
 product.belongsToMany(category, { as: 'CategoryMember', through: 'category_product' })
@@ -42,6 +42,7 @@ photo.belongsToMany(product, { as: 'ProductPhoto', through: 'product_photo' })
 category.belongsToMany(category_child, { as: 'CategoryChildrenChild', through: 'category_children_child' })
 photo.hasOne(slide, { foreignKey: { allowNull: false } });
 photo.hasOne(category);
+photo.hasOne(company);
 country.hasOne(client);
 state.hasOne(client);
 country.hasMany(state, { foreignKey: { allowNull: false } });

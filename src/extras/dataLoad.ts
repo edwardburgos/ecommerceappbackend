@@ -53,7 +53,7 @@ export default async function dataLoad() {
         await slide.bulkCreate(initialData.slides.map((e: SlideType) => { return { name: e.name, position: e.position, photoId: photosId[e.photoId - 1] } }));
 
         // Company
-        await company.create(initialData.company)
+        await company.create({...initialData.company, photoId: photosId[initialData.company.photoId - 1] })
 
         // categories & categories into category_children
         const category_children_created = await Promise.all(initialData.category_children.map((e: CategoryCategoryType) => {

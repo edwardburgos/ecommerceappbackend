@@ -45,6 +45,7 @@ const { product, category, photo, slide, company } = sequelizeObject.models;
         business_name: String!
         ruc: String!
         brand: String!
+        logo: String
       }
       type Query {
         productCount: Int!
@@ -77,7 +78,10 @@ const { product, category, photo, slide, company } = sequelizeObject.models;
         },
         getCompany: async () => {
           const companyFound = await company.findAll();
-          return companyFound[0]
+          const photoURL = await photo.findOne({ where: { id: companyFound[0].getDataValue('photoId') } })
+          return {id: companyFound[0].getDataValue('id'), business_name: companyFound[0].getDataValue('business_name'), 
+          ruc: companyFound[0].getDataValue('ruc'), brand: companyFound[0].getDataValue('brand'),
+          logo: photoURL ? photoURL.getDataValue('url') : null}
         }
       }
     }
@@ -91,7 +95,7 @@ const { product, category, photo, slide, company } = sequelizeObject.models;
     // Server execution
     const conection = await server.listen();
     console.log(`Server listening at ${conection.url}`)
-    
+
   } catch (e) {
     console.log(e)
   }
