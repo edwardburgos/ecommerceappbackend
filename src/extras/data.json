@@ -7,7 +7,8 @@
         "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/1_ic2sbi.jpg",
         "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/2_1_tghz2z.jpg",
         "https://res.cloudinary.com/duslwidi8/image/upload/v1638214783/iPhone_13_YA_DISPONIBLE_tjfxmn.png",
-        "https://res.cloudinary.com/duslwidi8/image/upload/v1638214388/Dise%C3%B1o_sin_t%C3%ADtulo_3_n5ckgf.png"
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638214388/Dise%C3%B1o_sin_t%C3%ADtulo_3_n5ckgf.png",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638371631/20211201_100905-PhotoRoom_dsc3pj.png"
     ],
     "categories": [
         {
@@ -261,8 +262,9 @@
         }
     ],
     "company": {
-        "business_name": "Future Vision S.A.C",
-        "ruc": "20523648331",
-        "brand": "Future Vision"
+        "business_name": "FUTURE VISIONS GALAXY S.A.C",
+        "ruc": "20602981658",
+        "brand": "FUTURE VISIONS",
+        "photoId": 9 
     }
 }
