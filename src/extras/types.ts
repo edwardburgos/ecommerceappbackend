@@ -48,6 +48,7 @@ export type ReturnedSlideType = {
 }
 
 export type CategoryCategoryType = {
+    id: string,
     categoryId: number,
     CategoryChildId: number
 }
