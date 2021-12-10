@@ -1,4 +1,4 @@
-import { Sequelize } from 'sequelize';
+import { DataTypes, Sequelize } from 'sequelize';
 import sequelizeData from 'sequelize';
 
 export default (sequelize: Sequelize) => {
@@ -16,7 +16,11 @@ export default (sequelize: Sequelize) => {
         },
         CategoryChildId: {
             type: sequelizeData.UUID,
-            allowNull: false,
+            allowNull: false
+        },
+        order: {
+            type: DataTypes.INTEGER,
+            allowNull: false
         }
     },
     {
