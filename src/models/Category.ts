@@ -19,10 +19,17 @@ export default (sequelize: Sequelize) => {
             allowNull: false,
             defaultValue: true
         },
+        order: {
+            type: DataTypes.INTEGER
+        },
         level: {
             type: DataTypes.ENUM('1', '2', '3'),
             allowNull: false,
             defaultValue: '3'
+        },
+        url: {
+            type: DataTypes.STRING,
+            allowNull: false
         }
     });
 };
