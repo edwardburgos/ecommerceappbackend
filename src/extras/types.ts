@@ -1,13 +1,27 @@
 export type CategoryType = {
     name: string,
     photoId: number,
-    level: string
+    level: string,
+    url: string,
+    order: number
 }
 
-export type ProductType = {
-    name: string;
-    categoryId: number;
-    id: string;
+export type ProductSimpleType = {
+    id: string,
+    name: string,
+    url: string,
+    price: number,
+    currency: string,
+}
+
+export type ProductCompleteType = {
+    id: string,
+    name: string,
+    url: string,
+    description: string | null,
+    price: number,
+    currency: string,
+    stars: number | null
 }
 
 export type CategoryProductType = {
@@ -17,7 +31,8 @@ export type CategoryProductType = {
 
 export type ProductPhotoType = {
     productId: number;
-    photoId: number;
+    photoId: number,
+    order: number;
 }
 
 export type PhotoType = {
@@ -50,7 +65,8 @@ export type ReturnedSlideType = {
 export type CategoryCategoryType = {
     id: string,
     categoryId: number,
-    CategoryChildId: number
+    CategoryChildId: number,
+    order: number
 }
 
 export type CompanyType = {
@@ -61,7 +77,8 @@ export type CompanyType = {
 
 export type CategoryCategoryCategoryType = {
     category_children: number,
-    category_children_childrenId: number
+    category_children_childrenId: number,
+    order: number
 }
 
 export type CountryStates = {
@@ -73,4 +90,9 @@ export type StatesType = {
     name: string,
     code: string,
     states: CountryStates[]
+}
+
+export type QueryResult = {
+    command: string,
+    rowCount: number
 }
