@@ -1,8 +1,8 @@
 import queries from "./queries";
 import { sequelizeObject } from "../db";
 import fs from 'fs';
-import { CategoryType, CountryType, SlideType, CategoryProductType, CountryStates, ProductPhotoType, CategoryCategoryType, CategoryCategoryCategoryType, StatesType } from "./types";
-
+import { CategoryType, CountryType, SlideType, ProductSimpleType, CategoryProductType, CountryStates, ProductPhotoType, CategoryCategoryType, CategoryCategoryCategoryType, StatesType } from "./types";
+import { stringToURL } from "./functions";
 const { conn } = sequelizeObject;
 const { product, category, photo, country, slide, state, category_product, product_photo, company, category_child, category_children_child } = sequelizeObject.models;
 
@@ -12,7 +12,7 @@ export default async function dataLoad() {
         console.log('Executing queries ...') 
 
         await Promise.all(queries.map(e => {
-            return conn.query(`ALTER TABLE category_children ADD CONSTRAINT no_repeated_categories CHECK ("categoryId" != "CategoryChildId")`)
+            return conn.query(e)
         }))
 
         console.log('Queries executed')
@@ -28,11 +28,11 @@ export default async function dataLoad() {
         const photosId = photos.map(e => e.getDataValue('id'))
 
         // Categories
-        const categories = await category.bulkCreate(initialData.categories.map((e: CategoryType) => { return { name: e.name, photoId: e.photoId ? photosId[e.photoId - 1] : null, level: e.level } }));
+        const categories = await category.bulkCreate(initialData.categories.map((e: CategoryType) => { return { name: e.name, photoId: e.photoId ? photosId[e.photoId - 1] : null, level: e.level, url: e.url, order: e.order } }));
         const categoriesId = categories.map(e => e.getDataValue('id'))
 
         // Products
-        const products = await product.bulkCreate(initialData.products);
+        const products = await product.bulkCreate(initialData.products.map((e: ProductSimpleType) => { return { ...e, url: stringToURL(e.name) }}));
         const productsId = products.map(e => e.getDataValue('id'))
 
         // Categories & Products
@@ -46,7 +46,7 @@ export default async function dataLoad() {
         initialData.product_photo.forEach(async (e: ProductPhotoType) => {
             const productFound = await product.findOne({ where: { id: productsId[e.productId - 1] } })
             const photoFound = await photo.findOne({ where: { id: photosId[e.photoId - 1] } })
-            productFound && photoFound ? product_photo.create({ productId: productsId[e.productId - 1], photoId: photosId[e.photoId - 1] }) : null
+            productFound && photoFound ? product_photo.create({ productId: productsId[e.productId - 1], photoId: photosId[e.photoId - 1], order: e.order }) : null
         })
 
         // Slides
@@ -65,7 +65,7 @@ export default async function dataLoad() {
                         const firstCategoryLevel = firstCategoryFound.getDataValue('level')
                         const secondCategoryLevel = secondCategoryFound.getDataValue('level')
                         if (['1', '2'].includes(firstCategoryLevel) && ['1', '2'].includes(secondCategoryLevel) && firstCategoryLevel !== secondCategoryLevel) {
-                            const categorychildCreated = await category_child.create({ categoryId: categoriesId[e.categoryId - 1], CategoryChildId: categoriesId[e.CategoryChildId - 1] })
+                            const categorychildCreated = await category_child.create({ categoryId: categoriesId[e.categoryId - 1], CategoryChildId: categoriesId[e.CategoryChildId - 1], order: e.order })
                             resolve(categorychildCreated.getDataValue('id'))
                         }
                     }
@@ -84,7 +84,7 @@ export default async function dataLoad() {
                     if (compositeCategoryFound && thirdLevelCategoryFound) {
                         const thirdLevelCategoryFoundLevel = thirdLevelCategoryFound.getDataValue('level')
                         if (thirdLevelCategoryFoundLevel === '3') {
-                            await category_children_child.create({ categoryId: categoriesId[e.category_children_childrenId - 1], categoryChildId: category_children_created[e.category_children - 1] })
+                            await category_children_child.create({ categoryId: categoriesId[e.category_children_childrenId - 1], categoryChildId: category_children_created[e.category_children - 1], order: e.order })
                             resolve('Completed')
                         }
                     }
