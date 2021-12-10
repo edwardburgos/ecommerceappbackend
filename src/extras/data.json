@@ -2,251 +2,566 @@
     "photos": [
         "https://res.cloudinary.com/duslwidi8/image/upload/v1637955828/APP-IPH12MIN128BL-NG_jhyj8w.png",
         "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/Apple-iPhone-12-negro_t89mvn.png",
-        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/3_jg4nkg.jpg",
-        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/4_wuowvy.jpg",
-        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/1_ic2sbi.jpg",
-        "https://res.cloudinary.com/duslwidi8/image/upload/v1637955827/2_1_tghz2z.jpg",
+
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1639068189/Dise%C3%B1o_sin_t%C3%ADtulo_7_jcidwt.png",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1639068188/Dise%C3%B1o_sin_t%C3%ADtulo_8_wicjw8.png",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1639068189/Dise%C3%B1o_sin_t%C3%ADtulo_9_q4vfk9.png",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1639068189/Dise%C3%B1o_sin_t%C3%ADtulo_10_ir0k52.png",
+
         "https://res.cloudinary.com/duslwidi8/image/upload/v1638214783/iPhone_13_YA_DISPONIBLE_tjfxmn.png",
         "https://res.cloudinary.com/duslwidi8/image/upload/v1638214388/Dise%C3%B1o_sin_t%C3%ADtulo_3_n5ckgf.png",
-        "https://res.cloudinary.com/duslwidi8/image/upload/v1638371631/20211201_100905-PhotoRoom_dsc3pj.png"
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638371631/20211201_100905-PhotoRoom_dsc3pj.png",
+
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638883434/fecha-de-lanzamiento-de-las-air-jordan-11-cool-grey-ct8012-005_gviats.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638883434/fecha-de-lanzamiento-de-las-air-jordan-11-cool-grey-ct8012-005_1_x2kkel.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638883434/fecha-de-lanzamiento-de-las-air-jordan-11-cool-grey-ct8012-005_2_yabtme.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638883434/fecha-de-lanzamiento-de-las-air-jordan-11-cool-grey-ct8012-005_3_d4kpqc.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638883434/fecha-de-lanzamiento-de-las-air-jordan-11-cool-grey-ct8012-005_4_hcgt6x.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638883434/fecha-de-lanzamiento-de-las-air-jordan-11-cool-grey-ct8012-005_5_is4v7q.jpg",
+
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1639066493/fecha-de-lanzamiento-de-las-nike-sb-dunk-low-pro-bq6817-010_evbhju.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820477/fecha-de-lanzamiento-de-las-nike-sb-dunk-low-pro-bq6817-010_bez3u8.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820476/fecha-de-lanzamiento-de-las-nike-sb-dunk-low-pro-bq6817-010_5_n4tg1k.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820476/fecha-de-lanzamiento-de-las-nike-sb-dunk-low-pro-bq6817-010_1_gacger.jpg",
+
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820475/fecha-de-lanzamiento-de-las-jordan-series-03-dear-coach-dn3732-200_2_fld287.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820476/fecha-de-lanzamiento-de-las-jordan-series-03-dear-coach-dn3732-200_fqeidf.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820475/fecha-de-lanzamiento-de-las-jordan-series-03-dear-coach-dn3732-200_5_quoqjx.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820475/fecha-de-lanzamiento-de-las-jordan-series-03-dear-coach-dn3732-200_3_gw4yaq.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820475/fecha-de-lanzamiento-de-las-jordan-series-03-dear-coach-dn3732-200_4_b7ekwe.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820475/fecha-de-lanzamiento-de-las-jordan-series-03-dear-coach-dn3732-200_1_qz39yx.jpg",
+
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820474/fecha-de-lanzamiento-de-las-air-jordan_3-patchwork-do1830-200_2_iojoia.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820473/fecha-de-lanzamiento-de-las-air-jordan_3-patchwork-do1830-200_s61hof.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820473/fecha-de-lanzamiento-de-las-air-jordan_3-patchwork-do1830-200_4_rw93wg.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820473/fecha-de-lanzamiento-de-las-air-jordan_3-patchwork-do1830-200_5_ybl7jx.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820473/fecha-de-lanzamiento-de-las-air-jordan_3-patchwork-do1830-200_3_gqnqum.jpg",
+
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820474/fecha-de-lanzamiento-de-las-air-more-uptempo-summit-white-para-mujer_2_p2aawg.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820475/fecha-de-lanzamiento-de-las-air-more-uptempo-summit-white-para-mujer_qyieet.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820475/fecha-de-lanzamiento-de-las-air-more-uptempo-summit-white-para-mujer_5_qvxbzt.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820474/fecha-de-lanzamiento-de-las-air-more-uptempo-summit-white-para-mujer_4_ymbqkh.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820475/fecha-de-lanzamiento-de-las-air-more-uptempo-summit-white-para-mujer_3_scjthx.jpg",
+        "https://res.cloudinary.com/duslwidi8/image/upload/v1638820474/fecha-de-lanzamiento-de-las-air-more-uptempo-summit-white-para-mujer_1_q10osd.jpg"
     ],
     "categories": [
         {
             "name": "Móvil",
-            "level": "1"
+            "level": "1",
+            "order": 2,
+            "url": "movil"
         },
         {
-            "name": "Phones",
-            "level": "2"
+            "name": "Smartphones",
+            "level": "2",
+            "url": "smartphones"
         },
         {
             "name": "Tablets",
-            "level": "2"
+            "level": "2",
+            "url": "tablets"
         },
         {
             "name": "Smartwatches",
-            "level": "2"
+            "level": "2",
+            "url": "smartwatches"
         },
         {
             "name": "Hombre",
-            "level": "1"
+            "level": "1",
+            "order": 0,
+            "url": "hombre"
         },
         {
             "name": "Mujer",
-            "level": "1"
+            "level": "1",
+            "order": 1,
+            "url": "mujer"
         },
         {
             "name": "Zapatillas",
-            "level": "2"
+            "level": "2",
+            "url": "zapatillas"
         },
         {
             "name": "Ropa",
-            "level": "2"
+            "level": "2",
+            "url": "ropa"
         },
         {
-            "name": "Polos"
+            "name": "Polos",
+            "url": "polos"
         },
         {
-            "name": "Casacas y Poleras"
+            "name": "Casacas y Poleras",
+            "url": "casacas_&y_&poleras"
         },
         {
-            "name": "Pantalones y Joggers"
+            "name": "Pantalones y Joggers",
+            "url": "pantalones_&y_&joggers"
         },
         {
-            "name": "Shorts"
+            "name": "Shorts",
+            "url": "shorts"
         },
         {
-            "name": "Faldas"
+            "name": "Faldas",
+            "url": "faldas"
         },
         {
             "name": "Accesorios",
-            "level": "2"
+            "level": "2",
+            "url": "accesorios"
         },
         {
-            "name": "Gorras"
+            "name": "Gorras",
+            "url": "gorras"
         },
         {
-            "name": "Medias"
+            "name": "Medias",
+            "url": "medias"
         },
         {
-            "name": "Lentes"
+            "name": "Lentes",
+            "url": "lentes"
         },
         {
-            "name": "Mochilas"
+            "name": "Mochilas",
+            "url": "mochilas"
         },
         {
-            "name": "Carteras"
+            "name": "Carteras",
+            "url": "carteras"
         }
     ],
     "category_children": [
         {
             "categoryId": 1,
-            "CategoryChildId": 2
+            "CategoryChildId": 2,
+            "order": 1
         },
         {
             "categoryId": 1,
-            "CategoryChildId": 3
+            "CategoryChildId": 3,
+            "order": 0
         },
         {
             "categoryId": 1,
-            "CategoryChildId": 4
+            "CategoryChildId": 4,
+            "order": 2
         },
         {
             "categoryId": 5,
-            "CategoryChildId": 7
+            "CategoryChildId": 7,
+            "order": 0
         },
         {
             "categoryId": 5,
-            "CategoryChildId": 8
+            "CategoryChildId": 8,
+            "order": 1
         },  
         {
             "categoryId": 5,
-            "CategoryChildId": 14
+            "CategoryChildId": 14,
+            "order": 2
         },
         {
             "categoryId": 6,
-            "CategoryChildId": 7
+            "CategoryChildId": 7,
+            "order": 0
         },
         {
             "categoryId": 6,
-            "CategoryChildId": 8
+            "CategoryChildId": 8,
+            "order": 1
         },
         {
             "categoryId": 6,
-            "CategoryChildId": 14
+            "CategoryChildId": 14,
+            "order": 2
         }
     ],
     "category_children_children": [
         {
             "category_children": 5,
-            "category_children_childrenId": 9
+            "category_children_childrenId": 9,
+            "order": 0
         },
         {
             "category_children": 5,
-            "category_children_childrenId": 10
+            "category_children_childrenId": 10,
+            "order": 1
         },
         {
             "category_children": 5,
-            "category_children_childrenId": 11
+            "category_children_childrenId": 11,
+            "order": 2
         },
         {
             "category_children": 5,
-            "category_children_childrenId": 12
+            "category_children_childrenId": 12,
+            "order": 3
         },
         {
             "category_children": 6,
-            "category_children_childrenId": 15
+            "category_children_childrenId": 15,
+            "order": 1
         },
         {
             "category_children": 6,
-            "category_children_childrenId": 16
+            "category_children_childrenId": 16,
+            "order": 3
         },
         {
             "category_children": 6,
-            "category_children_childrenId": 17
+            "category_children_childrenId": 17,
+            "order": 2
         },
         {
             "category_children": 6,
-            "category_children_childrenId": 18
+            "category_children_childrenId": 18,
+            "order": 0
         },
         {
             "category_children": 8,
-            "category_children_childrenId": 9
+            "category_children_childrenId": 9,
+            "order": 0
         },
         {
             "category_children": 8,
-            "category_children_childrenId": 10
+            "category_children_childrenId": 10,
+            "order": 1
         },
         {
             "category_children": 8,
-            "category_children_childrenId": 11
+            "category_children_childrenId": 11,
+            "order": 2
         },
         {
             "category_children": 8,
-            "category_children_childrenId": 12
+            "category_children_childrenId": 12,
+            "order": 4
         },
         {
             "category_children": 8,
-            "category_children_childrenId": 13
+            "category_children_childrenId": 13,
+            "order": 3
         },
         {
             "category_children": 9,
-            "category_children_childrenId": 15
+            "category_children_childrenId": 15,
+            "order": 2
         },
         {
             "category_children": 9,
-            "category_children_childrenId": 16
+            "category_children_childrenId": 16,
+            "order": 4
         },
         {
             "category_children": 9,
-            "category_children_childrenId": 17
+            "category_children_childrenId": 17,
+            "order": 3
         },
         {
             "category_children": 9,
-            "category_children_childrenId": 18
+            "category_children_childrenId": 18,
+            "order": 0
         },
         {
             "category_children": 9,
-            "category_children_childrenId": 19
+            "category_children_childrenId": 19,
+            "order": 1
         }
     ],
     "products": [
         {
-            "name": "iPhone 13 Pro Max 256GB"
+            "name": "iPhone 13 Pro Max 256GB",
+            "price": 4500,
+            "currency": "PEN"
         },
         {
-            "name": "iPhone 12 Pro Max 256GB"
+            "name": "iPhone 12 Pro Max 256GB",
+            "price": 4000,
+            "currency": "PEN"
         },
         {
-            "name": "FRAGMENT DESIGN X TRAVIS SCOTT X AIR JORDAN 1 RETRO LOW"
+            "name": "Fragment Design X Travis Scott X Air Jordan 1 Retro Low",
+            "price": 210,
+            "currency": "PEN"
+        },
+        {
+            "name": "Air Jordan 11 Cool Grey",
+            "price": 220.50,
+            "currency": "PEN"
+        },
+        {
+            "name": "SB Dunk Low Pro",
+            "price": 460.60,
+            "currency": "PEN"
+        },
+        {
+            "name": "Jordan Series .03 Dear Coach",
+            "price": 368.06,
+            "currency": "PEN"
+        },
+        {
+            "name": "Air Jordan 3 Patchwork",
+            "price": 875.19,
+            "currency": "PEN"
+        },
+        {
+            "name": "Air More Uptempo Summit White",
+            "price": 736.99,
+            "currency": "PEN",
+            "description": "Quizá más que ningún otro modelo, las Air More Uptempo captan el estilo de las zapatillas de baloncesto de los 90 en su máximo esplendor. Con un look grande y llamativo, este diseño representa sin complejos a un híbrido de estilo e innovación que causó sensación desde su debut y que sigue cautivando todas las miradas más de 25 años después.Quizá más que ningún otro modelo, las Air More Uptempo captan el estilo de las zapatillas de baloncesto de los 90 en su máximo esplendor. Con un look grande y llamativo, este diseño representa sin complejos a un híbrido de estilo e innovación que causó sensación desde su debut y que sigue cautivando todas las miradas más de 25 años después."
+        },
+        {
+            "name": "OFF-WHITE X AIR JORDAN 1 RETRO HIGH OG 'CHICAGO'",
+            "price": 150,
+            "currency": "PEN"
         }
     ],
     "category_product": [
         {
+            "categoryId": 1,
+            "productId": 1
+        },
+        {
             "categoryId": 2,
             "productId": 1
+        },
+        {
+            "categoryId": 1,
+            "productId": 2
         },
         {
             "categoryId": 2,
             "productId": 2
         },
         {
+            "categoryId": 5,
+            "productId": 3
+        },
+        {
             "categoryId": 7,
             "productId": 3
+        },
+        {
+            "categoryId": 5,
+            "productId": 4
+        },
+        {
+            "categoryId": 7,
+            "productId": 4
+        },
+        {
+            "categoryId": 5,
+            "productId": 5
+        },
+        {
+            "categoryId": 7,
+            "productId": 5
+        },
+        {
+            "categoryId": 5,
+            "productId": 6
+        },
+        {
+            "categoryId": 7,
+            "productId": 6
+        },
+        {
+            "categoryId": 5,
+            "productId": 7
+        },
+        {
+            "categoryId": 7,
+            "productId": 7
+        },
+        {
+            "categoryId": 6,
+            "productId": 8
+        },
+        {
+            "categoryId": 7,
+            "productId": 8
         }
     ],
     "product_photo": [
         {
             "productId": 1,
-            "photoId": 1
+            "photoId": 1,
+            "order": 0
         },
         {
             "productId": 1,
-            "photoId": 2
+            "photoId": 2,
+            "order": 1
         },
         {
             "productId": 2,
-            "photoId": 1
+            "photoId": 1,
+            "order": 0
         },
         {
             "productId": 2,
-            "photoId": 2
+            "photoId": 2,
+            "order": 1
         },
         {
             "productId": 3,
-            "photoId": 3
+            "photoId": 3,
+            "order": 0
         },
         {
             "productId": 3,
-            "photoId": 4
+            "photoId": 4,
+            "order": 1
         },
         {
             "productId": 3,
-            "photoId": 5
+            "photoId": 5,
+            "order": 2
         },
         {
             "productId": 3,
-            "photoId": 6
+            "photoId": 6,
+            "order": 3
+        },
+        {
+            "productId": 4,
+            "photoId": 10,
+            "order": 0
+        },
+        {
+            "productId": 4,
+            "photoId": 11,
+            "order": 1
+        },
+        {
+            "productId": 4,
+            "photoId": 12,
+            "order": 2
+        },
+        {
+            "productId": 4,
+            "photoId": 13,
+            "order": 3
+        },
+        {
+            "productId": 4,
+            "photoId": 14,
+            "order": 4
+        },
+        {
+            "productId": 4,
+            "photoId": 15,
+            "order": 5
+        },
+        {
+            "productId": 5,
+            "photoId": 16,
+            "order": 0
+        },
+        {
+            "productId": 5,
+            "photoId": 17,
+            "order": 1
+        },
+        {
+            "productId": 5,
+            "photoId": 18,
+            "order": 2
+        },
+        {
+            "productId": 5,
+            "photoId": 19,
+            "order": 3
+        },
+        {
+            "productId": 6,
+            "photoId": 20,
+            "order": 0
+        },
+        {
+            "productId": 6,
+            "photoId": 21,
+            "order": 1
+        },
+        {
+            "productId": 6,
+            "photoId": 22,
+            "order": 2
+        },
+        {
+            "productId": 6,
+            "photoId": 23,
+            "order": 3
+        },
+        {
+            "productId": 6,
+            "photoId": 24,
+            "order": 4
+        },
+        {
+            "productId": 6,
+            "photoId": 25,
+            "order": 5
+        },
+        {
+            "productId": 7,
+            "photoId": 26,
+            "order": 0
+        },
+        {
+            "productId": 7,
+            "photoId": 27,
+            "order": 1
+        },
+        {
+            "productId": 7,
+            "photoId": 28,
+            "order": 2
+        },
+        {
+            "productId": 7,
+            "photoId": 29,
+            "order": 3
+        },
+        {
+            "productId": 7,
+            "photoId": 30,
+            "order": 4
+        },
+        {
+            "productId": 8,
+            "photoId": 31,
+            "order": 0
+        },
+        {
+            "productId": 8,
+            "photoId": 32,
+            "order": 1
+        },
+        {
+            "productId": 8,
+            "photoId": 33,
+            "order": 2
+        },
+        {
+            "productId": 8,
+            "photoId": 34,
+            "order": 3
+        },
+        {
+            "productId": 8,
+            "photoId": 35,
+            "order": 4
+        },
+        {
+            "productId": 8,
+            "photoId": 36,
+            "order": 4
         }
     ],
     "slides": [
