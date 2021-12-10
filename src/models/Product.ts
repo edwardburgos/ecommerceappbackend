@@ -14,14 +14,21 @@ export default (sequelize: Sequelize) => {
             type: DataTypes.STRING,
             allowNull: false
         },
+        url: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            unique: true
+        },
         description: {
             type: DataTypes.TEXT
         },
         price: {
-            type: DataTypes.DECIMAL
+            type: DataTypes.DECIMAL,
+            allowNull: false
         },
         currency: {
-            type: DataTypes.STRING
+            type: DataTypes.STRING,
+            allowNull: false
         },
         stars: {
             type: DataTypes.DECIMAL
